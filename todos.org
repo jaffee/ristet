@@ -1,0 +1,27 @@
+* immediate
+** TODO support holding down keys
+** TODO give tile edges definition
+** TODO show upcoming block
+** TODO increase speed as the game progresses
+
+* future
+** TODO develop AI that learns what blocks trip up a player the most
+specify good outcomes like...
+- created an overhang
+- created a whole
+- ended the game
+- made the maximum height differential greater by x amount
+
+and bad outcomes like...
+- player got x lines
+- decreased maximum height differential
+
+Feed state of board into neural network with a set of outcomes, each
+representing a block. Train by determining how good or bad an outcome
+it was using the above criteria, and giving a score for how much to
+strengthen or weaken the neural path taken.
+
+Each player may evoke different behavior from the AI, which would be awesome.
+
+Limit the AI by enforcing that each block must be used every X
+blocks. Prevent the game from being boring due to lots of z's or s's.

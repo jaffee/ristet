@@ -16,6 +16,7 @@ class Board:
         self.board = [[0 for j in range(width)] for i in range(height)]
         self.shape = None
         self._draw()
+        self.clear()
 
     def add_shape(self):
         assert not self.shape
