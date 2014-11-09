@@ -2,6 +2,7 @@
 ** TODO support holding down keys
 ** TODO give tile edges definition
 ** TODO show upcoming block
+** TODO show score (lines)
 ** TODO increase speed as the game progresses
 
 * future

@@ -1,0 +1,5 @@
+* ristet
+=python game.py= to play.
+
+** dependencies
+You'll need [[http://www.pygame.org/][pygame]].
