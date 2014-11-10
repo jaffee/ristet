@@ -23,6 +23,6 @@ color_list = [ red,       green,   blue, bg,   rg,   pink, grey]
 assert len(shape_list) == len(color_list)
 shape_color = zip(shape_list, color_list)
 
-FRAME = 1.0/60.0 # frame rate
+FRAME_RATE = 60
 
 TILE_SIZE = 15
